@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="/docs/style.css">
+    <link rel="icon" href="/docs/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <a href="/docs/overview">Overview</a> |
+        <a href="/docs/projects">Projects</a> |
+        <a href="/docs/publications">Publications</a>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <hr>
+      <p>&copy; {{ site.author }} — {{ site.description }}</p>
+    </footer>
+  </body>
+</html>
