@@ -1,9 +1,0 @@
-theme: minima
-
-navigation:
-  - title: Overview
-    url: /overview
-  - title: Projects
-    url: /projects
-  - title: Publications
-    url: /publications

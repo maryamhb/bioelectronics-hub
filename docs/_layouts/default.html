@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/docs/style.css">
-    <link rel="icon" href="/docs/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/docs/style.css">
+    <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+    <link rel="icon" href="{{ '/favicon.ico.png' | relative_url }}" type="image/png" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{ '/favicon.ico.png' | relative_url }}" sizes="192x192">
   </head>
   <body>
     <header>
-      <h1>{{ site.title }}</h1>
+      <h1><a href="/" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
       <nav>
-        <a href="/docs/overview">Overview</a> |
-        <a href="/docs/projects">Projects</a> |
-        <a href="/docs/publications">Publications</a>
+        <a href="/">Home</a> |
+        <a href="/research">Research</a> |
+        <a href="/teaching">Teaching</a> |
+        <a href="/publications">Publications</a>
       </nav>
       <hr>
     </header>
@@ -25,7 +26,8 @@
 
     <footer>
       <hr>
-      <p>&copy; {{ site.author }} — {{ site.description }}</p>
+      <p>&copy; {{ site.author }}</p>
+      <p><em>Rewiring neuroscience — one circuit at a time.</em></p>
     </footer>
   </body>
 </html>

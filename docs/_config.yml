@@ -1,0 +1,15 @@
+# _config.yml
+title: Bioelectronics Hub
+author: Maryam Habibollahi
+description: Research Fellow in Integrated Bioelectronics at University College London
+theme: minima
+
+# local preview
+baseurl: ""
+
+# navigation links
+header_pages:
+  - research.md
+  - teaching.md
+  - publications.md
+

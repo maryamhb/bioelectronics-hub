@@ -1,19 +1,113 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Maryam's Project Hub</title>
-    <meta charset="UTF-8">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <h1>Welcome to My Bioelectronics Hub</h1>
-    <p>This site showcases current, past, and future projects — with design insights, publications, and modular workflows.</p>
-    <h2>Explore the Hub</h2>
-<ul>
-  <li><a href="overview.md">Overview</a></li>
-  <li><a href="projects.md">Projects</a></li>
-  <li><a href="publications.md">Publications</a></li>
-</ul>
+---
+layout: default
+title: Home
+permalink: /
+---
 
-  </body>
-</html>
+<div class="profile-section">
+  <div class="profile-image">
+    <img src="/images/headshot.jpg" alt="Maryam Habibollahi">
+  </div>
+  <div class="profile-bio">
+    <h2>Maryam Habibollahi</h2>
+    <p class="title">Research Fellow in Integrated Bioelectronics, University College London</p>
+
+    <p>I design and develop advanced bioelectronic devices and integrated circuits for clinical applications. My research bridges engineering innovation and healthcare challenges, focusing on miniaturised, low-power systems that sense, process, and stimulate biological signals with unprecedented precision.</p>
+
+    <p>My work spans the complete bioelectronics pipeline: from mixed-signal CMOS circuit design through clinical translation. I am passionate about closed-loop neuromodulation systems, wearable biomedical devices, and mentoring the next generation of bioelectronics engineers.</p>
+
+    <p>Looking forward, I aspire to establish a centre for neurorehabilitation research at UCL, bringing together engineers, clinicians, and neuroscientists to accelerate translation of bioelectronic solutions across neurodegenerative disease diagnostics, monitoring, and therapeutics.</p>
+  </div>
+</div>
+
+<h2>My Work</h2>
+
+<p style="font-size: 1.05em; margin-bottom: 2em; line-height: 1.8;">
+  I work across three interconnected areas: <strong><a href="/research">Research</a></strong> — advancing bioelectronic therapies from circuit design through clinical translation; <strong><a href="/teaching">Teaching</a></strong> — developing research-led curricula and mentoring the next generation of bioelectronics engineers at UCL; and <strong><a href="/publications">Publications</a></strong> — sharing peer-reviewed discoveries across leading conferences and journals.
+</p>
+
+<h3 style="margin-top: 1.5em;">Areas of Focus</h3>
+
+<div class="focus-tabs">
+  <button class="focus-tab-button active" data-tab="technical">🎯 Technical Expertise</button>
+  <button class="focus-tab-button" data-tab="clinical">🏥 Clinical Applications</button>
+  <button class="focus-tab-button" data-tab="education">🎓 Education & Leadership</button>
+</div>
+
+<div id="technical" class="focus-tab-content active">
+  <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 0; padding: 0; list-style: none; font-size: 0.95em;">
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Mixed-signal CMOS design</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Closed-loop neuromodulation</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Active implant development</li>
+  </ul>
+</div>
+
+<div id="clinical" class="focus-tab-content">
+  <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 0; padding: 0; list-style: none; font-size: 0.95em;">
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Tumour monitoring sensors</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Cardiac & autonomic support</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Spinal cord injury recovery</li>
+  </ul>
+</div>
+
+<div id="education" class="focus-tab-content">
+  <ul style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin: 0; padding: 0; list-style: none; font-size: 0.95em;">
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Translational bioelectronics</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Mentoring & supervision</li>
+    <li style="background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); border-left: 4px solid #0066cc;">Interdisciplinary collaboration</li>
+  </ul>
+</div>
+
+<h2>Get in Touch</h2>
+
+<div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); margin-top: 1.5em;">
+  <p style="font-size: 1em; margin-bottom: 1.5em;">I'm always interested in collaborations, research opportunities, and discussions about bioelectronics and neurorehabilitation. Feel free to reach out:</p>
+
+  <div style="display: flex; flex-direction: row; gap: 3em; align-items: flex-start; flex-wrap: wrap;">
+    <div style="display: flex; flex-direction: column; gap: 1.2em; flex: 1; min-width: 250px;">
+      <div style="display: flex; align-items: center; gap: 1em;">
+        <span style="font-size: 1.5em;">✉️</span>
+        <div>
+          <p style="margin: 0; font-weight: 600; color: #0066cc;">Email</p>
+          <p style="margin: 0.3em 0 0 0;"><a href="mailto:maryam.habibollahi.15@ucl.ac.uk">maryam.habibollahi.15@ucl.ac.uk</a></p>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 1em;">
+        <span style="font-size: 1.5em;">💼</span>
+        <div>
+          <p style="margin: 0; font-weight: 600; color: #0066cc;">LinkedIn</p>
+          <p style="margin: 0.3em 0 0 0;"><a href="https://linkedin.com/in/maryam-habibollahi" target="_blank">Connect on LinkedIn</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 0.5em;">
+      <p style="margin: 0; font-weight: 600; color: #0066cc; font-size: 0.85em;">LinkedIn</p>
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=110x110&data=https://linkedin.com/in/maryam-habibollahi" alt="LinkedIn QR Code" style="border: 2px solid #0066cc; border-radius: 8px; padding: 6px; background: white;">
+    </div>
+  </div>
+</div>
+
+<script>
+// Focus areas tab switching
+document.querySelectorAll('.focus-tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const tabName = button.getAttribute('data-tab');
+
+    // Hide all tab contents
+    document.querySelectorAll('.focus-tab-content').forEach(content => {
+      content.classList.remove('active');
+    });
+
+    // Remove active class from all buttons
+    document.querySelectorAll('.focus-tab-button').forEach(btn => {
+      btn.classList.remove('active');
+    });
+
+    // Show selected tab and mark button as active
+    document.getElementById(tabName).classList.add('active');
+    button.classList.add('active');
+  });
+});
+</script>
