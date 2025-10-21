@@ -7,6 +7,13 @@ theme: minima
 # GitHub Pages deployment
 baseurl: "/bioelectronics-hub"
 
+# Include favicon and keep images
+include:
+  - favicon.ico.png
+
+keep_files:
+  - assets
+
 # navigation links
 header_pages:
   - research.md

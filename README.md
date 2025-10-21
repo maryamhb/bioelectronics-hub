@@ -24,10 +24,12 @@ To run locally:
 
 ```bash
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl ""
 ```
 
 Then visit `http://localhost:4000`
+
+**Note:** The `--baseurl ""` flag overrides the GitHub Pages baseurl for local development.
 
 ## Deployment
 
