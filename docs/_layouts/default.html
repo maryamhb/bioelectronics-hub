@@ -10,12 +10,12 @@
   </head>
   <body>
     <header>
-      <h1><a href="/" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
+      <h1><a href="{{ '/' | relative_url }}" style="color: white; text-decoration: none;">{{ site.title }}</a></h1>
       <nav>
-        <a href="/">Home</a> |
-        <a href="/research">Research</a> |
-        <a href="/teaching">Teaching</a> |
-        <a href="/publications">Publications</a>
+        <a href="{{ '/' | relative_url }}">Home</a> |
+        <a href="{{ '/research' | relative_url }}">Research</a> |
+        <a href="{{ '/teaching' | relative_url }}">Teaching</a> |
+        <a href="{{ '/publications' | relative_url }}">Publications</a>
       </nav>
       <hr>
     </header>

@@ -4,8 +4,8 @@ author: Maryam Habibollahi
 description: Research Fellow in Integrated Bioelectronics at University College London
 theme: minima
 
-# local preview
-baseurl: ""
+# GitHub Pages deployment
+baseurl: "/bioelectronics-hub"
 
 # navigation links
 header_pages:
