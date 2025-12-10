@@ -34,3 +34,4 @@ Then visit `http://localhost:4000`
 ## Deployment
 
 Automatically deployed to GitHub Pages from the `main` branch. The `docs/` folder contains all content.
+- https://maryamhb.github.io/bioelectronics-hub/
