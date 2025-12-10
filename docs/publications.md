@@ -26,10 +26,14 @@ A comprehensive review of peripheral nerve interfaces, covering stimulation and 
 
 ---
 
-### <a href="https://link.springer.com/article/10.1186/s42234-024-00148-3" target="_blank">Bioelectronic Medicine for Neurorehabilitation</a>
-*Bioelectronic Medicine*, 2024
+### <a href="https://link.springer.com/article/10.1186/s42234-024-00148-3" target="_blank">A Multi-Channel Stimulator with an Active Electrode Array Implant for Vagal-Cardiac Neuromodulation Studies</a>
+*Bioelectronic Medicine*, Vol. 10, 2024
 
-A comprehensive overview of bioelectronic approaches in neurorehabilitation and therapeutic applications.
+**Co-authors:** Liu F, Wu Y, Neshatvar N, Zhang J, Zinno C, Demosthenous A
+
+**DOI:** 10.1186/s42234-024-00148-3
+
+This collaborative paper demonstrates successful pre-clinical validation of a complete implantable vagal nerve interface system. As a key contributor to the electronic design and pre-clinical deployment, this work bridges laboratory innovation with medical-grade implementation for the EU-funded NeuHeart project. The research addresses autonomic disconnection in heart transplant recipients, showcasing bioelectronics' potential for restoring physiological feedback where pharmaceutical interventions prove inadequate. The publication evidences capability for clinical translation and interdisciplinary collaboration across engineering, neuroscience, and cardiovascular medicine.
 
 ---
 
